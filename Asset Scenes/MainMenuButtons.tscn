@@ -77,5 +77,8 @@ texture_normal = ExtResource( 8 )
 texture_hover = ExtResource( 9 )
 script = ExtResource( 10 )
 [connection signal="button_up" from="VBoxContainer/Buttons/StartButton" to="VBoxContainer/Buttons/StartButton" method="_on_button_up"]
+[connection signal="mouse_entered" from="VBoxContainer/Buttons/StartButton" to="VBoxContainer/Buttons/StartButton" method="_on_mouse_entered"]
 [connection signal="button_up" from="VBoxContainer/Buttons/OptionsButton" to="VBoxContainer/Buttons/OptionsButton" method="_on_button_up"]
+[connection signal="mouse_entered" from="VBoxContainer/Buttons/OptionsButton" to="VBoxContainer/Buttons/OptionsButton" method="_on_mouse_entered"]
 [connection signal="button_up" from="VBoxContainer/Buttons/ExitButton" to="VBoxContainer/Buttons/ExitButton" method="_on_ExitButton_button_up"]
+[connection signal="mouse_entered" from="VBoxContainer/Buttons/ExitButton" to="VBoxContainer/Buttons/ExitButton" method="_on_mouse_entered"]
