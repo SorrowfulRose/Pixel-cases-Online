@@ -9,6 +9,6 @@ func _physics_process(delta):
 		$MarginContainer/VBoxContainer/Buttons/StartButton.grab_focus()
 	if $MarginContainer/VBoxContainer/Buttons/OptionsButton.is_hovered() == true:
 		$MarginContainer/VBoxContainer/Buttons/OptionsButton.grab_focus()
-	if $MarginContainer/VBoxContainer/Buttons/ExitButton.is_hovered() == true:
-		$MarginContainer/VBoxContainer/Buttons/ExitButton.grab_focus()
+	if $MarginContainer/VBoxContainer/Buttons/QuitButton.is_hovered() == true:
+		$MarginContainer/VBoxContainer/Buttons/QuitButton.grab_focus()
 

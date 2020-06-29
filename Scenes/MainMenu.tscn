@@ -1,12 +1,12 @@
 [gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Scripts/MainMenu.gd" type="Script" id=1]
-[ext_resource path="res://Asset Scenes/GameBackground.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Asset Scenes/FPSStats.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Assets/Main Menu/Other/Version_100Prototype.png" type="Texture" id=4]
-[ext_resource path="res://Asset Scenes/MainMenuButtons.tscn" type="PackedScene" id=5]
-[ext_resource path="res://Asset Scenes/GameWaterMark.tscn" type="PackedScene" id=6]
-[ext_resource path="res://Asset Scenes/ChangelogButton.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Design Scenes/GameBackground.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Design Scenes/FPSStats.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Assets/Menu/Main Menu/Version/Version_100Prototype.png" type="Texture" id=4]
+[ext_resource path="res://Design Scenes/MainMenuButtons.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Design Scenes/GameWaterMark.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Design Scenes/ChangelogButton.tscn" type="PackedScene" id=7]
 
 [node name="TitleScreen" type="Node"]
 script = ExtResource( 1 )
@@ -34,7 +34,7 @@ margin_top = 30.0
 margin_right = 1920.0
 margin_bottom = 980.0
 
-[node name="TextureRect" type="TextureRect" parent="Version/VBoxContainer"]
+[node name="Game Version" type="TextureRect" parent="Version/VBoxContainer"]
 margin_left = 905.0
 margin_right = 1015.0
 margin_bottom = 50.0
