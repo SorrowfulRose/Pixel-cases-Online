@@ -65,7 +65,7 @@ texture_normal = ExtResource( 5 )
 texture_hover = ExtResource( 6 )
 texture_disabled = ExtResource( 7 )
 script = ExtResource( 4 )
-scene_path = "res://Scenes/OptionScreen.tscn"
+scene_path = "res://Scenes/OptionsScreen.tscn"
 
 [node name="QuitButton" type="TextureButton" parent="VBoxContainer/Buttons"]
 margin_top = 250.0
